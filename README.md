@@ -1,46 +1,54 @@
-Car Agency Java Project
+Vehicle Agency Java Project
 
-Description :
+The Vehicle Agency project is a Java system that incorporates various design patterns, including Memento, Abstract Factory, Observer, Decorator, ThreadPool, and Singleton. It provides a user-friendly graphical user interface (GUI) for managing vehicles, conducting test drives, and supporting concurrent operations with threads.
 
-This Java project implements a car agency system with a graphical user interface (GUI) and incorporates various design patterns, inheritance, and interfaces to demonstrate object-oriented programming concepts.
 
 Features
 
-Interactive GUI for easy navigation and user interaction.
-Car listing and inventory management.
-User-friendly interface for trying out different cars , buy a car and retrieving car information.
-Implementation of design patterns, including Abstract Factory, Observer, and Decorator.
-Effective use of inheritance and interfaces to model car types, vehicle categories, and shared behaviors.
+Vehicle Management: Add new vehicles, sell vehicles, and conduct test drives.
+Graphical User Interface: User-friendly interface for easy interaction.
+Design Patterns: Utilizes Memento, Abstract Factory, Observer, Decorator, ThreadPool, and Singleton patterns.
+Save & Load: Save up to 3 mementos and load them using the "save"/"load" buttons (LIFO).
+Concurrent Operations: Supports concurrent operations with thread pooling.
+
 Installation
 
-Clone the repository:
-
-git clone <repository_url>
+Clone the repository: git clone <repository_url>
 Open the project in your preferred Java IDE (e.g., Eclipse, IntelliJ IDEA).
 Ensure that Java Development Kit (JDK) is installed on your system.
-Set up the necessary libraries or dependencies, if any.
+Set up any necessary libraries or dependencies, if required.
 
 Usage
 
 Launch the application from your IDE.
-Navigate through the graphical user interface to access different functionalities.
-Use the provided menus and buttons to browse cars, try out different cars, and retrieve car information.
-Explore the different sections of the application and interact with its features.
+Use the graphical user interface to perform various operations:
+Add new vehicles: Input vehicle details and add them to the system.
+Sell vehicles : Mark vehicles as sold and update the inventory.
+Test vehicles : Initiate test drives for interested customers.
+Save and load mementos: Save up to 3 mementos and load them as needed.
+Perform concurrent operations: Utilize thread pooling for concurrent tasks.
+Explore the different features and functionalities provided by the application.
+
 Configuration
+
 No specific configuration is required for this project.
 
 Contributing
-
-We welcome contributions to enhance the project. To contribute, follow these steps:
+Contributions to enhance the project are welcome. To contribute, follow these steps:
 
 Fork the repository.
 Create a new branch for your feature or bug fix.
 Implement your changes.
 Submit a pull request, describing the changes you've made.
-License
-This project is licensed under the MIT License.
 
-Authors
+
+
+Author
+
 
 Liav Huli
-Feel free to modify or expand upon this template as needed to accurately reflect the "try a car" functionality and other aspects of your project.
+
+Feel free to modify or expand upon this template as needed to accurately reflect the features and aspects of your Vehicle Agency Java project.
+
+![image_2023-07-19_151813477](https://github.com/liavjulio/Car-agency---Java/assets/117514706/a9816dec-43bb-4f8e-9ef6-e8bc8813b213)
+![git2](https://github.com/liavjulio/Car-agency---Java/assets/117514706/7c5e761f-a6d9-45da-a51b-f16993a6eb5c)
