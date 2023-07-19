@@ -1,15 +1,16 @@
 Vehicle Agency Java Project
 
-The Vehicle Agency project is a Java system that incorporates various design patterns, including Memento, Abstract Factory, Observer, Decorator, ThreadPool, and Singleton. It provides a user-friendly graphical user interface (GUI) for managing vehicles, conducting test drives, and supporting concurrent operations with threads.
+The Vehicle Agency project is a Java system that using various design patterns such as : Memento, Abstract Factory, Decorator and more.
+It provides a user-friendly graphical user interface for managing vehicles, doing test drives, and supporting concurrent operations with threads.
 
 
 Features
 
-Vehicle Management: Add new vehicles, sell vehicles, and conduct test drives.
-Graphical User Interface: User-friendly interface for easy interaction.
-Design Patterns: Utilizes Memento, Abstract Factory, Observer, Decorator, ThreadPool, and Singleton patterns.
-Save & Load: Save up to 3 mementos and load them using the "save"/"load" buttons (LIFO).
-Concurrent Operations: Supports concurrent operations with thread pooling.
+Vehicle agency managment : Add new vehicles, sell vehicles, and conduct test drives.
+Graphical User Interface : User-friendly interface.
+Design Patterns : Utilizes Memento, Abstract Factory, Observer, Decorator, ThreadPool, and Singleton patterns.
+Save and Load : Save up to 3 mementos and load them using the "save"/"load" buttons.
+Supports concurrent operations with thread pooling.
 
 Installation
 
@@ -22,8 +23,8 @@ Usage
 
 Launch the application from your IDE.
 Use the graphical user interface to perform various operations:
-Add new vehicles: Input vehicle details and add them to the system.
-Sell vehicles : Mark vehicles as sold and update the inventory.
+Add new vehicles: Input vehicle details and add them to the agency.
+Sell vehicles : Mark vehicles as sold and update the agency.
 Test vehicles : Initiate test drives for interested customers.
 Save and load mementos: Save up to 3 mementos and load them as needed.
 Perform concurrent operations: Utilize thread pooling for concurrent tasks.
@@ -41,10 +42,7 @@ Create a new branch for your feature or bug fix.
 Implement your changes.
 Submit a pull request, describing the changes you've made.
 
-
-
 Author
-
 
 Liav Huli
 
